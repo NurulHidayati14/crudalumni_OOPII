@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.crudbaju">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.crudbaju.UserAdapter"
+            tools:ignore="Instantiatable" />
+        <activity android:name="com.example.crudbaju.SiswaAdapter"
+            tools:ignore="Instantiatable" />
+        <activity android:name="com.example.crudbaju.EditUserActivity" />
+        <activity android:name="com.example.crudbaju.UserActivity" />
+        <activity android:name="com.example.crudbaju.EditSiswaActivity" />
+        <activity android:name="com.example.crudbaju.Siswactivity" />
+        <activity android:name="com.example.crudbaju.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
